@@ -141,3 +141,28 @@ button{
     justify-content: end;
     font-weight: bold;
 }
+
+.section-4{
+    padding: 5em;
+    color: #F9FAF8;
+}
+
+.call{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #3882F6;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+.call-tittle{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.button-call{
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    background: none;
+}
