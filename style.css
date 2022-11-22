@@ -11,7 +11,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1em;
+    padding: 1em 15% 8%;
 }
 
 .header-logo{
@@ -25,7 +25,7 @@ ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    gap: 10px;
+    gap: 15px;
 }
 
 a{
@@ -37,13 +37,16 @@ a{
 
 .section-1{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     color: #F9FAF8;
+    padding: 1em 15% 8%;
 }
 
 .section-1 .left-container{
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
+    width: 50%;
+    padding-right: 3em;
 }
 
 .main-tittle {
@@ -54,6 +57,7 @@ a{
 .section-1 .text{
     font-size: 18px;
     color: #e5e7eb;
+    padding-bottom: 1em;
 }
 
 button{
@@ -66,6 +70,7 @@ button{
     font-weight: bold;
     font-size: 18px;
     flex-shrink: 0;
+    border: 0;
 }
 
 .sign-up{
@@ -78,8 +83,8 @@ button{
     background: grey;
     align-items: center;
     justify-content: center;
-    width: 500px;
-    height: 200px;
+    width: 450px;
+    height: auto;
 }
 
 .section-2{
