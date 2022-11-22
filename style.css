@@ -87,7 +87,6 @@ button{
     justify-content: center;
 }
 
-
 .card-container{
     display: flex;
     justify-content: center;
@@ -120,4 +119,25 @@ button{
 .card-text{
     text-align: center;
     color: #1F2937;
+}
+
+.section-3{
+    background: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    color: #1F2937;
+    padding: 2em 4em;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.author{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    font-weight: bold;
 }
