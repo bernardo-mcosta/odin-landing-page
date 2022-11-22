@@ -11,6 +11,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 1em;
 }
 
 .header-logo{
@@ -32,4 +33,64 @@ a{
     font-size: 18px;
     color: #e5e7eb;
     font-weight: light;
+}
+
+.section-1{
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+}
+
+.section-1 .left-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-tittle {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.section-1 .text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button{
+    display: flex;
+    width: 120px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.sign-up{
+    color: #F9FAF8;
+    background: #3882F6;
+}
+
+.placeholder{
+    display: flex;
+    background: grey;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 200px;
+}
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card{
+    width: 100px;
+    height: 100px;
+}
+.card-container{
+    display: flex;
 }
